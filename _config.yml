@@ -1,1 +1,31 @@
-theme: jekyll-theme-cayman
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Tina's blog
+email: skielred@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+    A simple blog about programming, life in France, rhythm games and life.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://skielred.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Shookaite
+github_username:  skielred
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
