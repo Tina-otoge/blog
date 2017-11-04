@@ -163,6 +163,15 @@ article .main-content .post-content {
     width: 100%;
   }
 }
+@media screen and (max-width: 1000px) {
+  article .main-content .post-content {
+    margin: 0 2px;
+    padding: 0 8px;
+  }
+  main {
+    padding: 0 4px;
+  }
+}
 
 article header h1 {
   margin: 10px 0;
