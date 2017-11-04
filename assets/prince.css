@@ -134,19 +134,33 @@ article .main-content > * {
 
 article .main-content aside {
   margin: 0 1em;
-  width: 30%;
-  max-width: 220px;
+  width: calc(20% - 4em);
+}
+
+article .main-content aside img {
+  width: 82px;
+  font-size: 10px;
 }
 
 article .main-content .post-content {
-  margin: 0 10%;
+  padding: 0 8%;
+  margin: 0 1em;
   border-right: dashed 1px gray;
   max-width: 800px;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: Georgia, serif;
+  line-height: 1.3em;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1500px) {
   article .main-content .post-content {
     display: block;
     border-right: none;
+  }
+  article .main-content aside {
+    display: block;
+    width: 100%;
   }
 }
 
