@@ -4,6 +4,7 @@ body {
   color: #dedede;
   background-color: #623A77;
   font-family: Roboto, 'Segoe UI', sans-serif;
+  word-wrap: break-word;
 }
 @media screen and (max-width: 800px) {
   body {padding: 0 4px}
@@ -50,7 +51,7 @@ header a, header a:visited {
 }
 
 main {
-  padding: 0 1em 1em;
+  padding: 1em;
   min-height: 200px;
   border-radius: 3px;
   box-shadow: 0 0 8px 3px #BC1261;
@@ -63,8 +64,12 @@ main {
 .purple { color: #D87ED4 }
 
 nav {
-  padding: 1px 0;
+  padding: 0;
   border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul {
+  margin: 0 0 5px;
 }
 
 nav ul li {
@@ -143,7 +148,7 @@ article .main-content aside img {
 }
 
 article .main-content .post-content {
-  padding: 0 8%;
+  padding: .5em 8%;
   margin: 0 1em;
   border-right: dashed 1px gray;
   max-width: 800px;
@@ -165,11 +170,11 @@ article .main-content .post-content {
 }
 @media screen and (max-width: 1000px) {
   article .main-content .post-content {
-    margin: 0 2px;
-    padding: 0 8px;
+    margin: 5px 2px;
+    padding: 5px 8px;
   }
   main {
-    padding: 0 4px;
+    padding: 1em 4px;
   }
 }
 
@@ -219,3 +224,18 @@ footer .social-links li {
 .iconed.github:before  { background-image: url('logo-github.png') }
 .iconed.discord:before { background-image: url('logo-discord.png') }
 
+pre {
+  white-space: pre-wrap;
+}
+
+aside h1 {
+  font-size: 2em;
+  margin: 4px 0;
+}
+
+aside .avatar {
+  float: left;
+  margin: 0 2em 1em 0;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.666);
+}
