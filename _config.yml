@@ -1,10 +1,10 @@
 # Global configuration
 baseurl: "/blog"
-url: "https://skielred.github.io"
+url: "http://skiel.pro"
 timezone: Europe/Paris
 
 # Vars
-title: Tina's blog
+title: 8bit Prince
 email: skielred@gmail.com
 description: >-
     A simple blog about programming, life in France, rhythm games and life.
@@ -14,7 +14,6 @@ discord_username: Tina#4153
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 

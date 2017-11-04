@@ -14,11 +14,25 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  #hibiki {
+    width: 90%;
+    max-width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 1px rgba(0,0,0,.666);
+    margin: auto;
+  }
+  #hibiki img {
+    max-width: 100%;
+  }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
+  <div id="hibiki">
+    <img src="{{ "/i/hibiki.png" | relative_url }}" alt="Hibiki getting hurt">
+  </div>
   <p>The requested page could not be found.</p>
 </div>

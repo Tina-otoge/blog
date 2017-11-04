@@ -6,17 +6,23 @@ layout: default
 
   {{ content }}
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Posts:</h1>
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+    <li><a href="{{ post.url | relative_url }}">
+        <h1>{{ post.title | escape }}</h1>
+        {% if post.picture %}<div class="post-preview" style="background-image: url('{{ post.picture | relative_url }}')"></div>{% endif %}
+        <p>{{ post.content | strip_html | truncatewords:75 }}</p>
+        {% if post.tags %}
+        <ul class="tags">
+          {% for tag in post.tags %}
+          <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+    </a></li>
     {% endfor %}
   </ul>
 

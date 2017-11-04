@@ -2,7 +2,9 @@
 layout: post
 title:  "Test post"
 date:   2017-11-02 14:50:10 +0100
-categories:
+author: Tina
+picture: /i/hibiki.jpg
+tags: meta testing
 ---
 
 This is a test.

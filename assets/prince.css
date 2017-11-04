@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  color: #dedede;
+  background-color: #623A77;
+  font-family: Roboto, 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Bisque', sans-serif;
+  font-weight: 200;
+}
+
+a, a:visited {
+  color: #FF63AB;
+  transition: .75s;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  background-image: url('8bitstars.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .title {
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 64px;
+  font-family: "Neuropol X Lite", sans-serif;
+}
+
+header h2 {
+  font-size: 32px;
+}
+
+header a, header a:visited {
+  color: inherit;
+}
+
+main {
+  width: calc(90% - 2em);
+  margin: 2em auto;
+  padding: 0 1em 1em;
+  min-height: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 8px 3px #BC1261;
+  color: #303030;
+  background-color: #FDFDFD;
+}
+@media screen and (max-width: 800px) {
+  main {width: calc(100% - 2em);}
+}
+
+.yellow { color: #F9EB60 }
+.blue   { color: #1BF9D5 }
+.purple { color: #D87ED4 }
+
+nav {
+  padding: 1px 0;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul li {
+  display: inline;
+}
+nav ul li::before {
+  content: '~ ';
+  margin: 0 4px;
+}
+nav ul li:nth-child(1)::before {
+  content: '';
+}
+
+nav ul,
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li > a {
+  color: inherit;
+}
+.post-list li > a:hover,
+.post-list li > a:active {
+  text-decoration: inherit;
+}
+.post-list h1 {
+  font-family: inherit;
+}
+
+.post-list .tags {
+  list-style: none;
+  padding: 0;
+}
+.post-list .tags::before {
+  content: 'Tags : ';
+}
+.post-list .tags li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.post-list > li {
+  display: inline-block;
+  width: calc(50% - 1em - 3em);
+  margin: 1em;
+  padding: .5em;
+  vertical-align: top;
+  border: 2px solid gray;
+  box-shadow: 0 0 5px 1px rgba(200, 80, 70, .7);
+}
+
+article header h1 {
+  margin: 10px 0;
+}
+
+article header .post-meta {
+  margin: 2px 0 6px;
+}
