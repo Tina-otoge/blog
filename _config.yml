@@ -17,4 +17,9 @@ discord: Tina#4153
 markdown: kramdown
 plugins:
   - jekyll-feed
-
+exclude:
+  - README
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - new_post.sh
