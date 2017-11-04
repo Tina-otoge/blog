@@ -1,8 +1,12 @@
 body {
   margin: 0;
+  padding: 0 4em;
   color: #dedede;
   background-color: #623A77;
   font-family: Roboto, 'Segoe UI', sans-serif;
+}
+@media screen and (max-width: 800px) {
+  body {padding: 0 4px}
 }
 
 h1, h2, h3 {
@@ -46,17 +50,12 @@ header a, header a:visited {
 }
 
 main {
-  width: calc(90% - 2em);
-  margin: 2em auto;
   padding: 0 1em 1em;
   min-height: 200px;
   border-radius: 3px;
   box-shadow: 0 0 8px 3px #BC1261;
   color: #303030;
   background-color: #FDFDFD;
-}
-@media screen and (max-width: 800px) {
-  main {width: calc(100% - 2em);}
 }
 
 .yellow { color: #F9EB60 }
@@ -83,6 +82,8 @@ nav ul,
 .post-list {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex: 2;
 }
 
 .post-list li > a {
@@ -92,7 +93,11 @@ nav ul,
 .post-list li > a:active {
   text-decoration: inherit;
 }
-.post-list h1 {
+.post-list li h1 {
+  font-family: inherit;
+}
+
+.post-list li .post-date {
   font-family: inherit;
 }
 
@@ -110,12 +115,16 @@ nav ul,
 
 .post-list > li {
   display: inline-block;
-  width: calc(50% - 1em - 3em);
+  flex: 1;
   margin: 1em;
   padding: .5em;
   vertical-align: top;
   border: 2px solid gray;
   box-shadow: 0 0 5px 1px rgba(200, 80, 70, .7);
+}
+
+.post-preview {
+  color: #969696;
 }
 
 article header h1 {
@@ -125,3 +134,42 @@ article header h1 {
 article header .post-meta {
   margin: 2px 0 6px;
 }
+
+.chat-box {
+  border: 4px groove #FFFFFF;
+  border-radius: 4px;
+  background-color: #86326D;
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+}
+
+footer .signature,
+footer .social-links{
+  list-style: none;
+  padding: 0;
+}
+
+footer .signature li,
+footer .social-links li {
+  display: inline;
+  margin: 0 1em;
+}
+
+.iconed:before {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-right: 4px;
+  content: '';
+  background-size: 100% 100%;
+  position: relative;
+  top: 4px;
+}
+
+.iconed.twitter:before { background-image: url('logo-twitter.png') }
+.iconed.github:before  { background-image: url('logo-github.png') }
+.iconed.discord:before { background-image: url('logo-discord.png') }
+

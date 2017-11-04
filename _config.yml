@@ -1,16 +1,17 @@
 # Global configuration
 baseurl: "/blog"
 url: "http://skiel.pro"
+author: Tina
 timezone: Europe/Paris
 
 # Vars
 title: 8bit Prince
 email: skielred@gmail.com
 description: >-
-    A simple blog about programming, life in France, rhythm games and life.
-twitter_username: Shookaite
-github_username:  skielred
-discord_username: Tina#4153
+    A simple blog about programming, life in France, rhythm games and life in Paris.
+twitter: Shookaite
+github:  skielred
+discord: Tina#4153
 
 # Build settings
 markdown: kramdown
