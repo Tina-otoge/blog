@@ -14,7 +14,7 @@ Static websites.
 
 No, you didn't misread this one. Let me say it again.
 
-Satic websites.
+Static websites.
 
 *Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites* --Wikipedia  
 That's what Wikipedia says. But I'd rather say that it is a preprocessor for HTML, CSS, and JS.
