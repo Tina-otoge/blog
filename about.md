@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+
 ---
 
 This is a blog where I, Tina, write about the stuffs I want to. It can be about anything.

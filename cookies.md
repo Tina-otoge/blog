@@ -1,5 +1,8 @@
 ---
 layout: default
+title: cookies
+permalink: /cookies/
+
 ---
 
 <style>
