@@ -15,10 +15,14 @@ layout: default
       {% endif %}</p>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+  <div class="main-content">
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+    <aside>
+      Dummy aside
+    </aside>
   </div>
-
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
