@@ -35,7 +35,7 @@ so insignifiant had a so big impact on my computer.
 
 Later, [Kurokotei](https://twitter.com/dialgadu77), a friend of mine, showed me
 something cool he did on his ArchLinux computer, he used *mpv* and *Compton*
-to have a video playing as a wallpaper behind transparent windows. Naturally
+to have a video playing as a wallpaper behind transparent windows ([See video](https://twitter.com/dialgadu77/status/955540684395728897)). Naturally
 I decided to do the same, even if I will surely not use it on a daily basis. It
 was more for the sake of trying to set it up and learn some things. But
 something crossed my mind, playing a video is quite battery consuming. So
