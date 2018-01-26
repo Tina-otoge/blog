@@ -178,6 +178,12 @@ article .main-content .post-content {
   }
 }
 
+article .main-content .post-content img {
+  margin: 10px;
+  max-width: calc(100% - 20px);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .666);
+}
+
 article header h1 {
   margin: 10px 0;
 }
