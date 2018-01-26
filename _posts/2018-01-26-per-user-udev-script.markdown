@@ -65,7 +65,7 @@ and without any environment. This is somehow expected but I wanted something
 that was very specific to my user. Even if I'm the only one who uses my laptop,
 I try to make my system as general and scalable as possible. If there was
 another user on my computer, I don't think he would like to have *Compton*
-executed everytime he plugs the computer AC without being able to do anything
+executed everytime he plugs the computer to AC without being able to do anything
 about it.
 
 What I did then is a script meant to be run as root that will check every
