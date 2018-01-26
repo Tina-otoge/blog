@@ -73,7 +73,7 @@ folder in `/home` and check if there is a `.local/bin/some_script_name`
 residing in each home folder. Then it runs it as the corresponding user. And
 not as root. Because this would be a severe security breach otherwise.
 
-The script I made that calls the correspond scripts in each home directories is
+The script I made that calls the corresponding scripts in each home directories is
 stored in `/usr/local/bin`, I could not think of an other place for it. I
 called it `powerrice` because I'm bad with names, and it checks for a
 `~/.local/bin/powerrice` file in each user's home directory.
