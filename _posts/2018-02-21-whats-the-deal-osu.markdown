@@ -111,7 +111,7 @@ faster than more regular patterns to be more difficult. It's actually very hard
 to describe this so you will have to believe me on this point if you never
 tried anything else than *osu!*. Other games just feel more well-made.
 I think the fact that other games benefits from musics made specially for them,
-While *osu!* mappers tries to "translate" the feeling of the song to the
+while *osu!* mappers tries to "translate" the feeling of the song to the
 gameplay of *osu!*, songs that were made for other purposes than being played
 in *osu!* plays a big role in this quality.
 
