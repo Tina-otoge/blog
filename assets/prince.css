@@ -6,7 +6,9 @@ body {
   font-family: Roboto, 'Segoe UI', sans-serif;
   word-wrap: break-word;
 }
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 800px)
+{
   body {padding: 0 4px}
 }
 
@@ -21,6 +23,7 @@ a, a:visited {
   text-decoration: none;
   cursor: pointer;
 }
+
 a:hover, a:active {
   text-decoration: underline;
 }
@@ -75,10 +78,12 @@ nav ul {
 nav ul li {
   display: inline;
 }
+
 nav ul li::before {
   content: '~ ';
   margin: 0 4px;
 }
+
 nav ul li:nth-child(1)::before {
   content: '';
 }
@@ -94,10 +99,12 @@ nav ul,
 .post-list li > a {
   color: inherit;
 }
+
 .post-list li > a:hover,
 .post-list li > a:active {
   text-decoration: inherit;
 }
+
 .post-list li h1 {
   font-family: inherit;
 }
@@ -110,9 +117,11 @@ nav ul,
   list-style: none;
   padding: 0;
 }
+
 .post-list .tags::before {
   content: 'Tags : ';
 }
+
 .post-list .tags li {
   display: inline;
   margin: 0 5px;
@@ -158,17 +167,22 @@ article .main-content .post-content {
   font-family: Georgia, serif;
   line-height: 1.3em;
 }
-@media screen and (max-width: 1500px) {
+
+@media screen and (max-width: 1500px)
+{
   article .main-content .post-content {
     display: block;
     border-right: none;
   }
+
   article .main-content aside {
     display: block;
     width: 100%;
   }
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1000px)
+{
   article .main-content .post-content {
     margin: 5px 2px;
     padding: 5px 8px;
@@ -215,7 +229,7 @@ footer .social-links li {
   margin: 0 1em;
 }
 
-.iconed:before {
+.iconed::before {
   height: 20px;
   width: 20px;
   display: inline-block;
@@ -226,9 +240,9 @@ footer .social-links li {
   top: 4px;
 }
 
-.iconed.twitter:before { background-image: url('logo-twitter.png') }
-.iconed.github:before  { background-image: url('logo-github.png') }
-.iconed.discord:before { background-image: url('logo-discord.png') }
+.iconed.twitter::before { background-image: url('logo-twitter.png') }
+.iconed.github::before  { background-image: url('logo-github.png') }
+.iconed.discord::before { background-image: url('logo-discord.png') }
 
 pre {
   white-space: pre-wrap;
