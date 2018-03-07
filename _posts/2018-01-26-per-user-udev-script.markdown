@@ -2,7 +2,6 @@
 layout: post
 title: "Per-user udev triggered script"
 date: 2018-01-26 03:06:47 +0100
-categories: linux
 author: Tina
 tags: script programming sysadmin
 

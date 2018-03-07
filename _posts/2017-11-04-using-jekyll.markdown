@@ -2,7 +2,6 @@
 layout: post
 title: "Using Jekyll"
 date: 2017-11-04 17:07:33 +0100
-categories: programming
 author: Tina
 tags: web html preprocessor jekyll
 

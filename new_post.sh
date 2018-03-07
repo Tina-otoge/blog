@@ -10,7 +10,6 @@ echo '---'           >> $f
 echo 'layout: post'  >> $f
 echo "title: \"$1\"" >> $f
 echo "date: $d"      >> $f
-echo 'categories:'   >> $f
 echo 'author: Tina'  >> $f
 echo 'tags:'         >> $f
 echo ''              >> $f
