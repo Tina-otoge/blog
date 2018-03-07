@@ -3,6 +3,7 @@ baseurl: "/blog"
 url: "http://skiel.pro"
 author: Tina
 timezone: Europe/Paris
+permalink: :title:output_ext
 
 # Vars
 title: 8bit Prince
