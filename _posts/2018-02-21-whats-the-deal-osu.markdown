@@ -18,7 +18,7 @@ is often treated as a bad game, a game to avoid in general.
 
 ![osu! website]({{ "i/osu-website.png" | relative_url }})
 
-The first rhythm game I played seriously was probably *DJ Hero* and *Band Hero*
+The first rhythm games I played seriously was probably *DJ Hero* and *Band Hero*
 for the Nintendo Wii console. Being games made for an audience mainly composed
 of casual gamers by an american company, my main interest was in the playlist.
 For someone like me who had no special interest in music at that time, it had a
@@ -94,7 +94,7 @@ matters to me. When playing I often tell myself "I'm not playing this song the
 way it was intended to be played. This song was made for another game, to be
 played in other conditions".
 
-I think that's one of the main reasons *osu!* is disrespected in by other
+I think that's one of the main reasons *osu!* is disrespected by other
 rhythm games players. Players that play other games feel like they are the one
 playing the "true" games while *osu!* is a cluster of adaptations. And I am
 not only talking about the gameplay but also about the songs you play.
