@@ -93,7 +93,23 @@ nav ul,
   list-style: none;
   padding: 0;
   display: flex;
-  flex: 2;
+  flex-wrap: wrap;
+}
+
+.post-list > li {
+  width: calc(100%/2 - 3em - 4px);
+  margin: 1em;
+  padding: .5em;
+  vertical-align: top;
+  border: 2px solid gray;
+  box-shadow: 0 0 5px 1px rgba(200, 80, 70, .7);
+}
+
+@media screen and (max-width: 800px)
+{
+  .post-list > li {
+    width: 100%;
+  }
 }
 
 .post-list li > a {
@@ -125,16 +141,6 @@ nav ul,
 .post-list .tags li {
   display: inline;
   margin: 0 5px;
-}
-
-.post-list > li {
-  display: inline-block;
-  flex: 1;
-  margin: 1em;
-  padding: .5em;
-  vertical-align: top;
-  border: 2px solid gray;
-  box-shadow: 0 0 5px 1px rgba(200, 80, 70, .7);
 }
 
 .post-preview {
