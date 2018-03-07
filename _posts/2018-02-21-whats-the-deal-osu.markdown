@@ -43,7 +43,7 @@ games and especially *SOUND VOLTEX*.
 
 ![SOUND VOLTEX 1 cabinets]({{ "i/sdvx-booth-cabs.jpg" | relative_url }})
 
-For a long time I was conveiced there was no way to play those games without
+For a long time I was convinced there was no way to play those games without
 going to amusement centers in Japan. I made the conclusion that *osu!* was the
 best option for me, to play at home on a PC with a keyboard.
 
@@ -154,7 +154,7 @@ try other rhythm games, please do. That doesn't mean you will have to quit
 *osu!*. You can actually do both. But if you like *osu!*, it's very likely
 that you will like other rhythm games, especially Japanese ones.
 
-Also to all of you that are like I was 3 years ago and are conveiced you have
+Also to all of you that are like I was 3 years ago and are convinced you have
 to go to Japan to play other rhythm games. You are wrong. There are probably
 a community of arcade players in your region, most likely a very small one.
 Don't expect to find as many *SOUND VOLTEX* players as *osu!* ones, there's
