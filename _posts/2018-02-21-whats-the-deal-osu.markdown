@@ -172,7 +172,7 @@ there are that much players enjoying the game, there's a reason.
 
 ---
 
-Thanks for reading and please ask contact me on Twitter
+Thanks for reading and please contact me on Twitter
 @[Shookaite](https://twitter.com/Shookaite) if you want to discuss this. Don't
 hesitate to tell me if you came to me after reading this article, actually it
 would please me a lot!
