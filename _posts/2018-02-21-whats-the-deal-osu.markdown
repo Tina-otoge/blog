@@ -138,8 +138,8 @@ with this gameplay on the PC platform. It also introduces *Taiko no Tatsujin*,
 probably never know of without getting to an amusement center in Japan or
 Korea.
 
-Is *osu!* worst as a rhythm games than other games? Probably. *osu!* is more
-accessible, it's free, it's for PC, it has a gigantic playlist. *osu!* has
+Is *osu!* worst as a rhythm games than other games? Probably. But: *osu!* is
+more accessible, it's free, it's for PC, it has a gigantic playlist. *osu!* has
 online multiplayer, ranking, forums, a very big player base all around the
 world. None of ther other rhythm games have all of this at once.
 
