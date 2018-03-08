@@ -47,8 +47,8 @@ For a long time I was convinced there was no way to play those games without
 going to amusement centers in Japan. I made the conclusion that *osu!* was the
 best option for me, to play at home on a PC with a keyboard.
 
-After expressing my interest in those games, a friend told me "Hey why don't
-you go to that arcade center in Paris, they have *beatmania IIDX 22: PENDUAL*.
+After expressing my interest in those games, a friend told me "why don't you
+go to that arcade center in Paris, they have *beatmania IIDX 22: PENDUAL*".
 So I went there. And played *IIDX* every week. Actually at least twice a week.
 (I spent a lot of my money there). And it felt nice. It felt so nice that I got
 myself a *IIDX* controller from gamo2 the following Christmas.
