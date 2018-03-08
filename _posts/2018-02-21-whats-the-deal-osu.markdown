@@ -3,7 +3,7 @@ layout: post
 title: "So what's the deal with osu!?"
 date: 2018-02-21 16:59:24 +0100
 author: Tina
-tags:
+tags: rhythm-games osu video-games arcade
 
 ---
 
