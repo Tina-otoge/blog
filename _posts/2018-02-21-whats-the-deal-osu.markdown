@@ -141,7 +141,7 @@ Korea.
 Is *osu!* worst as a rhythm games than other games? Probably. But: *osu!* is
 more accessible, it's free, it's for PC, it has a gigantic playlist. *osu!* has
 online multiplayer, ranking, forums, a very big player base all around the
-world. None of ther other rhythm games have all of this at once.
+world. None of the other rhythm games have all of this at once.
 
 I'm glad *osu!* exists and I hope it will progress in a good way, promoting
 original contents more and provide more ways to let people enjoy the game in
