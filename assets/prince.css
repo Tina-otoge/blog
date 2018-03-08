@@ -183,7 +183,7 @@ article .main-content .post-content {
 
   article .main-content aside {
     display: block;
-    width: 100%;
+    width: calc(100% - 2em);
   }
 }
 
