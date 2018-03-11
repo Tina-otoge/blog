@@ -8,6 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    {% if page.author %}
+    <meta name="author" content="{{ page.author }}">
+    {% else if site.author %}
+    <meta name="author" content="{{ site.author }}">
+    {% endif %}
+    <meta name="keywords" content="tina, skielred, skiel, blog, programming, rhythm games, web development, linux">
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link href="{{ "/assets/syntax.css" | relative_url }}" rel='stylesheet' type='text/css'>
@@ -35,7 +41,7 @@
           <li><a href="{{ site.baseurl }}/">Top</a></li>
           <li><a href="{{ "/about/" | relative_url }}">About</a></li>
           <li><a href="{{ "/cookies/" | relative_url }}">Cookies</a></li>
-          <li><a href="{{ "/copyright/" | relative_url }}">Copyright</a></a></li>
+          <li><a href="{{ "/copyright/" | relative_url }}">Copyright</a></li>
         </ul>
       </nav>
 
