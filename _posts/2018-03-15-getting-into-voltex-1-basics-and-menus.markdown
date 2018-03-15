@@ -235,7 +235,7 @@ again.
 
 Pressing **both of the FX** will bring up the sorting and advanced options
 menu. There, you can change the sorting option using any of the **VOL**s knobs.
-Example of sorting options are: Level, Song name, Release date. From their
+Example of sorting options are: Level, Song name, Release date. From there
 you can also configure advanced options like the gauge type (hp bar). Select
 an option using **one of the FX** and configure it using the **BT**s. More
 about advanced options in a future article. Press **both of the FX** again or
