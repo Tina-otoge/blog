@@ -47,7 +47,7 @@ You have to use the two knobs and the 6 push buttons to play songs.
 # Tutorial
 
 When nobody is playing, the game will loop on what is called an **attract
-screen**. It's a demo of a game, which goals is to make newcomers want to pay
+screen**. It's a demo of a game, which goal is to make newcomers want to pay
 to try the game. This screen shows several informations about how to play the
 game, so you can understand how it works before paying for it. This is
 different but similar to the **tutorial** that will be presented to any player
