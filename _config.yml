@@ -4,6 +4,7 @@ url: "http://skiel.pro"
 author: Tina
 timezone: Europe/Paris
 permalink: :title:output_ext
+google-analytics: true
 
 # Vars
 title: 8bit Prince
