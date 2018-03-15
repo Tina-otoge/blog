@@ -4,7 +4,7 @@ url: "http://skiel.pro"
 author: Tina
 timezone: Europe/Paris
 permalink: :title:output_ext
-google-analytics: true
+google_analytics: UA-115802190-1
 
 # Vars
 title: "8bit Prince: Tina's blog // Code and baguettes"
