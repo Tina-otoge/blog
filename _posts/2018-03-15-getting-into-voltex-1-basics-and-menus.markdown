@@ -392,7 +392,7 @@ On the result screen you can see:
 - Your profile
 - Your clear mark (Failed, Clear, *Ultimate Chain* or *Perfect Ultimate Chain*)
 - The gauge type used
-- Your score and how the difference with your previous best score
+- Your score and the difference with your previous best score
 - Your maximum combo
 - The amount of *CRITICAL*, *NEAR* (*LATE*), *NEAR* (*SLOW*), and *ERROR*
 - The ratio of *VOL*, *LONG* and *BT* successfully hit
