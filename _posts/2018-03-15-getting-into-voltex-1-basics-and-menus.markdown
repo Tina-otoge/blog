@@ -7,7 +7,7 @@ tags: rhythm-games sound-voltex bemani tutorial guide
 
 ---
 SOUND VOLTEX is one of the most known BEMANI games nowadays. It's a fairly
-recent game released in January 2012. It became very popular due to its mordern
+recent game released in January 2012. It became very popular due to its modern
 futuristic inspired graphics, playlist and original design.
 
 SOUND VOLTEX focuses on remixes of BEMANI songs, doujinshi (amateur) and
