@@ -129,7 +129,7 @@ matter of the performance of the player.
 
 There are other modes that makes the bar starts at 100% and the goal is to
 avoid the bar from hitting 0% instead. In this case, hitting 0% will result in
-an forced termination of the current song and will mean the end of the current
+a forced termination of the current song and will mean the end of the current
 credit.
 
 # Logging in
