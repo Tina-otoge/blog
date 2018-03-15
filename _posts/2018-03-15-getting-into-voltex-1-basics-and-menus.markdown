@@ -40,6 +40,9 @@ You have to use the two knobs and the 6 push buttons to play songs.
   - [Selection grid](#selection-grid)
 - [Playing a song](#playing-a-song)
   - [Multiplayer lobby](#multiplayer-lobby)
+  - [Playfield](#playfield)
+  - [Result screen](#result-screen)
+- [After game](#after-game)
 
 # Tutorial
 
@@ -271,7 +274,7 @@ the remix artist will be shown, **not the original artist**.
 At the right, you can see a logo, it indicates the category of this song.
 
 Then a short version of your best result on this song is presented. More on
-this on the actual section about [Song result](#song-result).
+this on the actual section about [Result screen](#result-screen).
 
 Then comes the different difficulties available for this song.
 
