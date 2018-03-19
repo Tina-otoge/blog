@@ -39,7 +39,7 @@ https://www.fakku.net/hentai/two-player-sex-english)
 <small>(or [maybe don't](https://hentai.cafe/manga/read/nijou-katame-two-player-sex/en/0/1/page/8))</small>.
 
 So, the girl's name is Ichinose. I think I used myself as a model for her
-dialogues, you probably noticed that. However, physicall, she doesn't look at
+dialogues, you probably noticed that. However, physically, she doesn't look at
 all like the "Tina" that represents myself online. Even though Ichinose is
 based on myself, please don't think I would make someone quit osu! on purpose!
 I'm not like that!
