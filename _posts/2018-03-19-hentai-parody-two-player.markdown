@@ -35,8 +35,9 @@ Have a good read!
 ![panel final]({{ "i/wuvu-two-player/final.png" | relative_url}})
 
 Now subscribe to Fakku if you want to read the [sex part here](
-https://www.fakku.net/hentai/two-player-sex-english)
-<small>(or [maybe don't](https://hentai.cafe/manga/read/nijou-katame-two-player-sex/en/0/1/page/8))</small>.
+https://www.fakku.net/hentai/two-player-sex-english) and support the original artist!  
+<small>(or [maybe just fap](https://hentai.cafe/manga/read/nijou-katame-two-player-sex/en/0/1/page/8))(nsfw)</small>.
+
 
 So, the girl's name is Ichinose. I think I used myself as a model for her
 dialogues, you probably noticed that. However, physically, she doesn't look at
