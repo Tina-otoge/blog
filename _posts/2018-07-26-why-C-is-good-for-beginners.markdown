@@ -1,3 +1,24 @@
+---
+layout: post
+title: "Why I think C is a good thing for beginners
+date: 2018-07-26 00:56:00 +0100
+author: COLAMAroro
+tags: programming opinion guest
+
+---
+
+This time I'm presenting you an article that wasn't written by myself. COLA is
+a classmate of mine. We've been in the same school since 2016 and will probably
+still be until I graduate, theorically in 2022. He asked if he could write an
+article on my blog about why he thinks C is a good language to learn for young
+programmers, which I of course agreed to.
+
+I won't express my opinion on this matter here. While reading, please don't
+forget that this article is based on his personal experience with programming
+and C. Have a good read!
+
+- Tina.
+
 # Why I think C is a good thing for beginners
 
 #### From Corentin "COLA" R
