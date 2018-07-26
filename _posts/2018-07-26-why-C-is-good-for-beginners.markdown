@@ -45,9 +45,9 @@ EPITECH is not really kind too. You start with their famous C Pool (5 weeks of
 C, 7 days a week, 15 hours a day), in which your job is to recreate some
 functions of the standard C lib (mainly string functions, like strcpy, strlen,
 etc...). They also correct you with an autograder, meaning you will receive
-your result (Or [this message🙃](https://i.imgur.com/Edns7sN.png)) in your
-inbox. And they are not very kind too regarding their coding style and your
-code compliance.
+your result (Or [this message🙃]({{ "i/build-failed.png" | relative_url}})) in
+your inbox. And they are not very kind too regarding their coding style and
+your code compliance.
 
 It means I've learned C the **hard way**. Take the function to write 1
 character, draw me a fucking christmas tree on the terminal. Using *printf(2)*?
