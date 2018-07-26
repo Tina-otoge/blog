@@ -28,7 +28,7 @@ your result (Or [this message🙃](https://i.imgur.com/Edns7sN.png)) in your
 inbox. And they are not very kind too regarding their coding style and your
 code compliance.
 
-It means i've learned C the **hard way**. Take the function to write 1
+It means I've learned C the **hard way**. Take the function to write 1
 character, draw me a fucking christmas tree on the terminal. Using *printf(2)*?
 No way. You will have to rewrite it later anyway.
 
@@ -44,18 +44,18 @@ from my EPITA year:
 et vous vous plaignez que ça prenne du temps
 
 Translated to english:
->With C#, you call list.sort() an a 50k elements list, and you complain about
+>With C#, you call list.sort() on a 50k elements list, and you complain about
 your program being slow
 
 You know to react when in a more forgiving language like Python, you see an
-`OutOfMemoryException`. You thanks the language to handle the boilerplate code,
+`OutOfMemoryException`. You thank the language to handle the boilerplate code,
 but you remember that it's not just magic.
 
 You learn to read an API documentation. You learn good practice, clean
-coding style, efficiency
+coding style, efficiency.
 
 Yes, it's annoying, but at least you understand **computer programming**, not
-just programming. Other language are probably just based on a runtime written
+just programming. Other languages are probably just based on a runtime written
 in C or C++ anyway (JVM is written in C, so does CPython). Elevate yourself
 from wannabe programmers who do **entire string comparaisons** instead of
 enums.
