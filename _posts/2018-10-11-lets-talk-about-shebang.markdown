@@ -41,7 +41,7 @@ Hopefully there is a trick to make it work. Instead of directly writing down
 `/usr/bin/python3` you can instead reference `/usr/bin/env` which is a way more
 standardly packaged utility which role is to alter or search in the
 [PATH][wiki-path]. So writting your script this way instead:
-```python3
+```python
 #!/usr/bin/env python3
 
 print('please let\'s stay friends :(')
