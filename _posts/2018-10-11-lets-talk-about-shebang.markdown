@@ -9,7 +9,7 @@ tags: linux bash best-practices
 
 # Introduction to shebangs
 
-*Shebangs*, or less commonly called *hashbangs*, are the top line of an
+A *shebang*, or less commonly called *hashbang*, is the top line of an
 executable script written in plain-text on UNIX systems. For example, imagine a
 file called `install`, without any extension. The file mode has the executable
 bit set for current user. So you can execute it by just typing `./install`. At
