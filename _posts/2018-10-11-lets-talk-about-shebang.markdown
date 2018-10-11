@@ -108,8 +108,8 @@ interpreter, no matter where it is.
 
 # Conclusion
 
-Don't search for "should I use `#!/bin/bash` or `#!/usr/bin/env bash` in my
-scripts. Search what's the difference between them. Or maybe don't, since you
+Don't search for "*should I use `#!/bin/bash` or `#!/usr/bin/env bash` in my
+scripts*". Search what's the difference between them. Or maybe don't, since you
 just read my article the differences should be clear by now.
 
 There is no best solution. There are contexts, and there are solutions
