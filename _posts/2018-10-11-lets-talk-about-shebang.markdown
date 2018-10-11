@@ -18,7 +18,7 @@ compiled file, it will just execute the machine code in it. Since it's just
 text, it starts by reading the first line to get a clue on what's this file and
 what to do with it.
 
-A shebang is this same top line written as a special [comment](wiki-comment)
+A shebang is this same top line written as a special [comment][wiki-comment]
 that explicits an absolute path to an executable file, an interpreter, that is
 able to read this plain-text code and do something with it. For example:
 ```python
@@ -39,8 +39,8 @@ himself as your friend. You will now spend the rest of your life alone and sad.
 
 Hopefully there is a trick to make it work. Instead of directly writing down
 `/usr/bin/python3` you can instead reference `/usr/bin/env` which is a way more
-standardly packaged utility which role is to alter or search in the [PATH](
-wiki-path). So writting your script this way instead:
+standardly packaged utility which role is to alter or search in the
+[PATH][wiki-path]. So writting your script this way instead:
 ```python3
 #!/usr/bin/env python3
 
@@ -61,12 +61,12 @@ uses Python 3.4. As your sysem administrator I ship Python 3.4 in
 `/usr/bin/python3`, and my script has the shebang `#!/usr/bin/env python3`.
 
 But you were not happy with Python 3.4, you wanted these sweet [asynchronous
-generators](PEP-525) that comes with Python 3.6. But since you are not an
+generators][PEP-525] that comes with Python 3.6. But since you are not an
 administrator, you installed Python 3.6 in `~/.local/bin/python3` and it is
 invoked by default when you type `python3`, because it's the first one that
 comes when looking in your `PATH`. But since my very important system-wide
 script that is written in Python 3.4 and not 3.6 makes use of `StopIteration`
-which was [changed after Python 3.4](PEP-479-breaks), now it's borken.
+which was [changed after Python 3.4][PEP-479-breaks], now it's borken.
 
 Oh too bad, this script was used to periodically backup your data and now it's
 all deleted due to the script failing, you lost all of your holidays photos you
