@@ -57,7 +57,7 @@ used. Yay!
 # And now everything is broken.
 
 Then it starts getting problematic if I want to write a system-wide script that
-uses Python 3.4. As your sysem administrator I ship Python 3.4 in
+uses Python 3.4. As your system administrator I ship Python 3.4 in
 `/usr/bin/python3`, and my script has the shebang `#!/usr/bin/env python3`.
 
 But you were not happy with Python 3.4, you wanted these sweet [asynchronous
