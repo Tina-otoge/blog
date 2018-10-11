@@ -86,16 +86,16 @@ Oh wait, I lied on the last one.
 ## Write shebangs according to context
 
 If you are a system administrator and write a system-wide script, you probably
-want to reference the binaries shipped with your system, not the ones in PATH.
-Never ever trust PATH. PATH is a user-land variable. Users can **and will**
-change it. If just for the fun of it, I create a symlink to `/bin/true` and
-place it into `~/.local/bin/python3` what do you think will happen to your
-script? Well I'm probably really fucking dumb for doing this and I don't know
-why you accepted that I use your server, but that doesn't change the fact that
-it is dangerous.
+want to reference the binaries shipped with your system, not the ones in
+`PATH`. Never ever trust `PATH`. `PATH` is a user-land variable. Users can
+**and will** change it. If just for the fun of it, I create a symlink to
+`/bin/true` and place it into `~/.local/bin/python3` what do you think will
+happen to your script? Well I'm probably really fucking dumb for doing this and
+I don't know why you accepted that I use your server, but that doesn't change
+the fact that it is dangerous.
 
 If you already know you want to use the executable located in `/usr/bin` then
-do so, don't rely on PATH.
+do so, don't rely on `PATH`.
 
 Now if you are writing an executable script designed for regular users, things
 are different. You want people to download an run your script, no matter where
