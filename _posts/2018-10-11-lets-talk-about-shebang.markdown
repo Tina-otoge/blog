@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Using Jekyll"
-date: 2018-11-10 10:35:33 +0100
+title: "Let's talk about shebangs!"
+date: 2018-10-11 10:35:33 +0100
 author: Tina
 tags: linux bash best-practices
 
@@ -13,7 +13,7 @@ tags: linux bash best-practices
 executable script written in plain-text on UNIX systems. For example, imagine a
 file called `install`, without any extension. The file mode has the executable
 bit set for current user. So you can execute it by just typing `./install`. At
-this point, your system has to guess what to do with this file. If it's was
+this point, your system has to guess what to do with this file. If it was
 compiled file, it will just execute the machine code in it. Since it's just
 text, it starts by reading the first line to get a clue on what's this file and
 what to do with it.
