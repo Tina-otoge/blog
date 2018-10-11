@@ -98,7 +98,7 @@ If you already know you want to use the executable located in `/usr/bin` then
 do so, don't rely on `PATH`.
 
 Now if you are writing an executable script designed for regular users, things
-are different. You want people to download an run your script, no matter where
+are different. You want people to download and run your script, no matter where
 they installed Python 3 or Bash on their computer. If they want to run your
 script in a special version of Bash that prints the characters backwards just
 for the sake of it, then why not. They do what they want, they are the users.
