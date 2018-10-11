@@ -48,7 +48,7 @@ print('please let\'s stay friends :(')
 ```
 Will actually do things a bit differently.
 
-- First search in $PATH for an occurence of `python3`
+- First search in variable `PATH` for an occurence of `python3`
 - Then execute the script using the found `python3`
 
 Now, no matter where Python 3 is installed, the user-preferred one will be
