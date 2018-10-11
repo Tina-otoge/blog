@@ -75,11 +75,11 @@ kicked out of your own house. Good job.
 
 # So what?
 
-The point of this article is not to point out that you breaking changes in
-Python are dangerous. It is not to point out that you should not backup your
-holidays photos on my server because I may inadvertently delete them. And it
-is definitely not to point out that standard shebangs don't exist and that
-they should be written according to context.
+The point of this article is not to point out that breaking changes in Python
+are dangerous. It is not to point out that you should not backup your holidays
+photos on my server because I may inadvertently delete them. And it is
+definitely not to point out that standard shebangs don't exist and that they
+should be written according to context.
 
 Oh wait, I lied on the last one.
 
