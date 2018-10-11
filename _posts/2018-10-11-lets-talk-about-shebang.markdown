@@ -66,7 +66,7 @@ administrator, you installed Python 3.6 in `~/.local/bin/python3` and it is
 invoked by default when you type `python3`, because it's the first one that
 comes when looking in your `PATH`. But since my very important system-wide
 script that is written in Python 3.4 and not 3.6 makes use of `StopIteration`
-which was [changed after Python 3.4][PEP-479-breaks], now it's borken.
+which was [changed after Python 3.4][PEP-479-breaks], now it's broken.
 
 Oh too bad, this script was used to periodically backup your data and now it's
 all deleted due to the script failing, you lost all of your holidays photos you
