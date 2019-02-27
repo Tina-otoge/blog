@@ -1,27 +1,24 @@
 # Global configuration
 baseurl: "/blog"
 url: "http://skiel.pro"
-author: Tina
+author: tina
 timezone: Europe/Paris
 permalink: :title:output_ext
 google_analytics: UA-115802190-1
 
 # Vars
-title: "8bit Prince: Tina's blog // Code and baguettes"
-email: skielred@gmail.com
+title: "8bit Prince"
 description: >-
-    A personal blog maintained by Tina, also known as Shookaite or skielred. About rhythm games, programming and Linux.
-twitter: Shookaite
-github:  skielred
-discord: Tina#0573
+    A blog about rhythm games, programming and Linux.
+public_repo: "https://github.com/skielred/blog"
 
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+    - jekyll-last-modified-at
 exclude:
-  - README
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - new_post.sh
+    - vendor
+    - README
+    - LICENSE
+    - Gemfile
+    - Gemfile.lock
