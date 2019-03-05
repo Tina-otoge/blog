@@ -12,7 +12,8 @@ layout: default
     <li>
       <a class="post-block" href="{{ post.url | relative_url }}">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <h2 class="post-date">{{ post.date | date: date_format }}</h2>
+        {% assign author = site.data.authors[post.author] %}
+        <h2 class="subtitle">{{ post.date | date: date_format }} - {{ author.name }}</h2>
         <h1>{{ post.title | escape }}</h1>
         <!-- {% if post.picture %}<div class="post-preview" style="background-image: url('{{ post.picture | relative_url }}')"></div>{% endif %} -->
         <p class="post-preview">{{ post.content | strip_html | truncatewords:75 }}</p>

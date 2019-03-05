@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Why I think C is a good thing for beginners"
-date: 2018-07-26 00:56:00 +0100
-author: COLAMAroro
+author: cola
 tags: programming opinion guest
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Getting into Voltex, part 1: Basics and Menus"
-date: 2018-03-15 05:14:43 +0100
-author: Tina
+author: tina
 tags: rhythm-games sound-voltex bemani tutorial guide
 
 ---

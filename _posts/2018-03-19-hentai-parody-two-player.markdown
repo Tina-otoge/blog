@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Hentai parody: Two Player Sex"
-date: 2018-03-19 05:26:59 +0100
-author: Tina
+author: tina
 tags: parody manga hentai rhythm-games osu bemani
 
 ---

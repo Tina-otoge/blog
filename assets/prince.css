@@ -246,9 +246,10 @@ footer .social-links li {
   top: 4px;
 }
 
-.iconed.twitter::before { background-image: url('logo-twitter.png') }
-.iconed.github::before  { background-image: url('logo-github.png') }
-.iconed.discord::before { background-image: url('logo-discord.png') }
+.iconed.twitter::before { background-image: url('logo-twitter-black.png') }
+.iconed.github::before  { background-image: url('logo-github-black.png') }
+.iconed.discord::before { background-image: url('logo-discord-black.png') }
+.iconed.web::before { background-image: url('logo-web-black.png') }
 
 pre {
   white-space: pre-wrap;

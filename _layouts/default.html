@@ -31,7 +31,11 @@
 
     <header>
       <h2 class="title yellow">{{ site.author }}'s blog</h2>
-      <h1><a href="{{ site.baseurl }}/"><span class="yellow">8</span>bit <span class="blue">P</span>rin<span class="purple">c</span>e</a></h1>
+      <h1>
+        <a href="{{ site.baseurl }}/">
+          <span class="yellow">8</span>bit <span class="blue">P</span>rin<span class="purple">c</span>e
+        </a>
+      </h1>
       <h2 class="yellow">Code and baguettes</h2>
     </header>
 
@@ -41,7 +45,6 @@
           <li><a href="{{ site.baseurl }}/">Top</a></li>
           <li><a href="{{ "/about/" | relative_url }}">About</a></li>
           <li><a href="{{ "/cookies/" | relative_url }}">Cookies</a></li>
-          <li><a href="{{ "/copyright/" | relative_url }}">Copyright</a></li>
         </ul>
       </nav>
 
@@ -55,25 +58,13 @@
       </div>
       <ul class="signature">
         <li>
-          {% if site.author %}
-          {{ site.author | escape }}, {{ site.time | date: '%Y' }}
-          {% else %}
-          {{ site.title | escape }}
-          {% endif %}
+          {{ site.title | escape }}, {{ site.time | date: '%Y' }}
         </li>
         {% if site.email %}
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         {% endif %}
-      </ul>
-      <ul class="social-links">
-        {% if site.twitter %}
-        <li><a class="iconed twitter" href="https://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a></li>
-        {% endif %}
-        {% if site.github %}
-        <li><a class="iconed github" href="https://github.com/{{ site.github }}">{{ site.github }}</a></li>
-        {% endif %}
-        {% if site.discord %}
-        <li><span class="iconed discord">{{ site.discord }}</span></li>
+        {% if site.public_repo %}
+        <li><a href="{{ site.public_repo }}">Source code</a></li>
         {% endif %}
       </ul>
     </footer>

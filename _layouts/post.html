@@ -1,18 +1,32 @@
 ---
 layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+---
+
+{% if page.author %}
+{% assign author = site.data.authors[page.author] %}
+{% endif %}
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+<article id="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header>
+    <h1 class="title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ page.date | date: date_format }}
+    </time>
+    {% if page.date != page.last_modified_at %}
+    <time datetime"{{ page.last_modified_at | date_to_xmlschema }}">
+      • Modified: {{ page.last_modified_at | date: date_format }}
+    </time>
+    {% endif %}
+    {% if author %}
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      • <span itemprop="name">{{ author.name }}</span>
+    </span>
+    {% endif %}
+    </p>
   </header>
 
   <div class="main-content">
@@ -20,18 +34,31 @@ layout: default
       {{ content }}
     </div>
     <aside>
-      <h1>Tina</h1>
+      {% if author %}
+      <h1>{{ author.name }}</h1>
       <div class="aside-content">
-        <img class="avatar" src="{{ "/i/hibiki.jpg" | relative_url }}" alt="Tina's avatar, a cute anime girl">
-        <p>I am an IT student located near Paris.</p>
-        <p>I play Japanese arcade rhythm games and I'm fond of the BEMANI series.</p>
-        <p>I code stuffs such as games, bots and websites and I like it.</p>
+        <img class="avatar" src="{{ "/assets/authors/" | relative_url }}{{ page.author }}.png" alt="{{ author.name }}'s avatar">
+        <p class="description">{{ author.description }}</p>
+        <ul class="links">
+          {% if author.twitter %}
+          <li><a class="iconed twitter" href="https://{{ author.twitter }}">@{{ author.twitter }}</a></li>
+          {% endif %}
+          {% if author.github %}
+          <li><a class="iconed github" href="https://github.com/{{ author.github }}">{{ author.github }}</a></li>
+          {% endif %}
+          {% if author.discord %}
+          <li><span class="iconed discord">{{ author.discord}}</span></li>
+          {% endif %}
+          {% if author.website %}
+          <li><a class="iconed web" href="{{ author.website }}">{{ author.website }}</a></li>
+          {% endif %}
       </div>
+      {% endif %}
     </aside>
   </div>
 
   {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
+  {% include disqus_comments.html %}
   {% else %}
   {% endif %}
 </article>
