@@ -7,6 +7,9 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 {% endif %}
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% assign date_iso = "%Y-%m-%d" %}
+{% assign date_post = page.date | date: date_iso %}
+{% assign date_modif = page.last_modified_at | date: date_iso %}
 
 <article id="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -16,7 +19,7 @@ layout: default
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ page.date | date: date_format }}
     </time>
-    {% if page.date != page.last_modified_at %}
+    {% if date_post != date_modif %}
     <time datetime"{{ page.last_modified_at | date_to_xmlschema }}">
       • Modified: {{ page.last_modified_at | date: date_format }}
     </time>
