@@ -1,0 +1,24 @@
+# Global configuration
+baseurl: ""
+url: "http://localhost:8000"
+author: tina
+timezone: Europe/Paris
+permalink: :title:output_ext
+google_analytics: UA-115802190-1
+
+# Vars
+title: "8bit Prince"
+description: >-
+    A blog about rhythm games, programming and Linux.
+public_repo: "https://github.com/skielred/blog"
+
+# Build settings
+markdown: kramdown
+plugins:
+    - jekyll-last-modified-at
+exclude:
+    - vendor
+    - README
+    - LICENSE
+    - Gemfile
+    - Gemfile.lock
