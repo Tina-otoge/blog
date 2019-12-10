@@ -12,6 +12,17 @@ description: >-
     A blog about rhythm games, programming and Linux.
 public_repo: "https://github.com/skielred/blog"
 
+defaults:
+    -
+        scope:
+            type: "posts"
+        values:
+            layout: "post"
+
+utterances:
+    repo: "skielred/blog"
+    theme: "github-light"
+
 # Build settings
 markdown: kramdown
 plugins:

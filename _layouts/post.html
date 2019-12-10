@@ -61,6 +61,14 @@ layout: default
 
   {% if site.disqus.shortname %}
   {% include disqus_comments.html %}
-  {% else %}
+  {% else if site.utterances %}
+  <script src="https://utteranc.es/client.js"
+    repo="{{ site.utterances.repo }}"
+    issue-term="pathname"
+    label="comment"
+    theme="{{ site.utterances.theme }}"
+    crossorigin="anonymous"
+    async>
+  </script>
   {% endif %}
 </article>
