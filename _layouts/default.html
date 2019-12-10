@@ -32,7 +32,7 @@
     <header>
       <h2 class="title yellow">{{ site.author }}'s blog</h2>
       <h1>
-        <a href="{{ site.baseurl }}/">
+        <a href="{{ "/" | relative_url }}">
           <span class="yellow">8</span>bit <span class="blue">P</span>rin<span class="purple">c</span>e
         </a>
       </h1>
@@ -42,7 +42,7 @@
     <main>
       <nav>
         <ul>
-          <li><a href="{{ site.baseurl }}/">Top</a></li>
+          <li><a href="{{ "/" | relative_url }}">Top</a></li>
           <li><a href="{{ "/about/" | relative_url }}">About</a></li>
           <li><a href="{{ "/cookies/" | relative_url }}">Cookies</a></li>
         </ul>
