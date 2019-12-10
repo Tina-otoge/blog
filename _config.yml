@@ -1,6 +1,6 @@
 # Global configuration
 baseurl: "/blog"
-url: "http://skiel.pro"
+url: "https://tina.moe"
 author: tina
 timezone: Europe/Paris
 permalink: :title:output_ext
