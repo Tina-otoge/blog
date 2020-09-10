@@ -6,27 +6,21 @@ layout: default
 
   {{ content }}
 
-  <h1 class="page-heading">Posts:</h1>
+  <!-- <h1 class="page-heading">Posts:</h1> -->
   <ul class="post-list">
     {% for post in site.posts %}
-    <li>
-      <a class="post-block" href="{{ post.url | relative_url }}">
+    	<li class="post-thumb {{ post.category }}">
+      <div class="content">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {% assign author = site.data.authors[post.author] %}  
         <h2 class="subtitle">{{ post.date | date: date_format }}{% if author %} - {{ author.name }}{% endif %}</h2>
-        <h1>{{ post.title | escape }}</h1>
-        <!-- {% if post.picture %}<div class="post-preview" style="background-image: url('{{ post.picture | relative_url }}')"></div>{% endif %} -->
+        <h1><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
         <p class="post-preview">{{ post.content | strip_html | truncatewords:75 }}</p>
-        {% if post.tags %}
-        <ul class="tags">
-          {% for tag in post.tags %}
-          <li>{{ tag }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-    </a>
-    <p><a href="{{ post.url | relative_url }}">Read more</a></p>
-  </li>
+      </div>
+      <p>
+        <a class="button" href="{{ post.url | relative_url }}">Read more</a>
+      </p>
+    </li>
     {% endfor %}
   </ul>
 

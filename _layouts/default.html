@@ -29,7 +29,14 @@
 
   <body>
 
-    <header>
+    <div id="ornements">
+      <i class="top-left"></i>
+      <i class="top-right"></i>
+      <i class="bottom-left"></i>
+      <i class="bottom-right"></i>
+    </div>
+
+    <header id="header">
       <h2 class="title yellow">{{ site.author }}'s blog</h2>
       <h1>
         <a href="{{ "/" | relative_url }}">
@@ -40,19 +47,12 @@
     </header>
 
     <main>
-      <nav>
-        <ul>
-          <li><a href="{{ "/" | relative_url }}">Top</a></li>
-          <li><a href="{{ "/about/" | relative_url }}">About</a></li>
-          <li><a href="{{ "/cookies/" | relative_url }}">Cookies</a></li>
-        </ul>
-      </nav>
 
       {{ content }}
 
     </main>
 
-    <footer class="chat-box">
+    <footer id="footer">
       <div>
         <p>{{ site.description | escape }}</p>
       </div>
@@ -66,6 +66,11 @@
         {% if site.public_repo %}
         <li><a href="{{ site.public_repo }}">Source code</a></li>
         {% endif %}
+      </ul>
+      <ul class="links">
+        <li><a href="{{ "/" | relative_url }}">Top</a></li>
+        <li><a href="{{ "/about/" | relative_url }}">About</a></li>
+        <li><a href="{{ "/cookies/" | relative_url }}">Cookies</a></li>
       </ul>
     </footer>
 

@@ -3,7 +3,7 @@ layout: post
 title: "Let's talk about shebangs!"
 date: 2018-10-11 10:35:33 +0100
 author: Tina
-tags: linux bash best-practices
+category: tech
 
 ---
 

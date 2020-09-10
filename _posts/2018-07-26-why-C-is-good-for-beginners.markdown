@@ -2,7 +2,7 @@
 layout: post
 title: "Why I think C is a good thing for beginners"
 author: cola
-tags: programming opinion guest
+category: tech
 
 ---
 

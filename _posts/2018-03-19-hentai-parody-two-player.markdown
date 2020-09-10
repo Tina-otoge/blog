@@ -2,7 +2,7 @@
 layout: post
 title: "Hentai parody: Two Player Sex"
 author: tina
-tags: parody manga hentai rhythm-games osu bemani
+category: weeb
 
 ---
 Hello there, I casually decided to parody a hentai manga instead of sleeping

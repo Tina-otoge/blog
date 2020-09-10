@@ -3,7 +3,7 @@ layout: post
 title: "I slept 3 nights in an arcade in London"
 date: 2019-06-16 12:08:24 +0100
 author: tina
-tags: rhythm-games irl
+category: rhythm-games
 
 ---
 

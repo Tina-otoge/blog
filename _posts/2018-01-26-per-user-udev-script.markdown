@@ -2,7 +2,7 @@
 layout: post
 title: "Per-user udev triggered script"
 author: tina
-tags: script programming sysadmin
+category: tech
 
 ---
 Ricing. Or stupid car tuning philosophy applied to computer interfaces.

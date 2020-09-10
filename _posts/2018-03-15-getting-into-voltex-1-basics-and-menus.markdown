@@ -2,7 +2,7 @@
 layout: post
 title: "Getting into Voltex, part 1: Basics and Menus"
 author: tina
-tags: rhythm-games sound-voltex bemani tutorial guide
+category: rhythm-games
 
 ---
 SOUND VOLTEX is one of the most known BEMANI games nowadays. It's a fairly

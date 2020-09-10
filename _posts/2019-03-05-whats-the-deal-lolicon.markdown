@@ -2,7 +2,7 @@
 layout: post
 title: "What's the deal with lolicon and such?"
 author: tina
-tags: hentai lolicon law morals
+category: weeb
 
 ---
 I haven't posted anything there in a while and I'm coming back with a really
