@@ -28,8 +28,8 @@ layout: default
       • <span itemprop="name">{{ author.name }}</span>
     </span>
     {% endif %}
-    {% if page.category %}
-    <span class="post-category">• {{ page.category }}</span>
+  	{% if page.category %}
+    <span class="post-category">• <a href="{{ site.baseurl }}/categories/{{ page.category }}.html">{{ page.category }}</a></span>
     {% endif %}
     </p>
   </header>

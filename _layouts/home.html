@@ -2,14 +2,25 @@
 layout: default
 ---
 
+{% if page.category %}
+{% assign category = page.category %}
+{% else %}
+{% assign category = "all" %}
+{% endif %}
+
 <div class="home">
 
-  {{ content }}
-
+	{% if category != "all" %}
+	<a href="{{ site.baseurl }}/">⬅ Back to all posts</a>
+	{% endif %}
   <!-- <h1 class="page-heading">Posts:</h1> -->
   <ul class="post-list">
     {% for post in site.posts %}
-    	<li class="post-thumb {{ post.category }}">
+    {% if category == "all" or post.category contains category %}
+    <li class="post-thumb {{ post.category }}">
+      <div class="category {{ post.category }}">
+        <a href="{{ site.baseurl }}/categories/{{ post.category }}.html">{{ post.category }}</a>
+      </div>
       <div class="content">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {% assign author = site.data.authors[post.author] %}  
@@ -21,6 +32,7 @@ layout: default
         <a class="button" href="{{ post.url | relative_url }}">Read more</a>
       </p>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 

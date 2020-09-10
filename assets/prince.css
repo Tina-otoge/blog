@@ -61,7 +61,7 @@ header h2 {
   font-size: 32px;
 }
 
-header a, header a:visited {
+#header a, #header a:visited {
   color: inherit;
 }
 
@@ -170,6 +170,11 @@ article header h1 {
   max-width: 72%;
 }
 
+.author {
+  position: sticky;
+  top: 1em;
+}
+
 @media screen and (max-width: 1100px) {
   .post-container {
     display: block;
@@ -183,6 +188,9 @@ article header h1 {
   }
   .post-comments {
     max-width: 100%;
+  }
+  .author {
+    position: relative;
   }
 }
 
@@ -241,11 +249,6 @@ pre {
   white-space: pre-wrap;
 }
 
-aside {
-  position: sticky;
-  top: 0;
-}
-
 aside h1 {
   font-size: 2em;
   margin: 4px 0;
@@ -268,28 +271,28 @@ aside .avatar {
   display: flex;
 }
 
-.post-thumb:before {
-  content: '';
-  height: 1em;
+.category {
+  height: 1.2em;
   margin: -1em -1em 0;
   color: white;
   text-align: right;
-  padding: 0.2em 1em;
+  padding: 0 1em;
   background-color: var(--gray);
 }
 
-.post-thumb.weeb:before {
-  content: 'weeb';
+.category a, .category a:visited {
+  color: inherit;
+}
+
+.category.weeb {
   background-color: var(--pink);
 }
 
-.post-thumb.tech:before {
-  content: 'tech';
+.category.tech {
   background-color: var(--blue);
 }
 
-.post-thumb.rhythm-games:before {
-  content: 'rhythm games';
+.category.rhythm-games {
   background-color: var(--green);
 }
 
