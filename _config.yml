@@ -19,7 +19,7 @@ defaults:
         layout: "post"
 
 utterances:
-    repo: "skielred/blog"
+    repo: "Tina_otoge/blog"
     theme: "github-light"
 
 # Build settings

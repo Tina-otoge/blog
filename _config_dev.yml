@@ -13,12 +13,11 @@ description: >-
 public_repo: "https://github.com/skielred/blog"
 
 defaults:
-    -
-        scope:
-            type: "posts"
-        values:
-            layout: "post"
-            author: "tina"
+    - scope:
+        type: "posts"
+      values:
+        layout: "post"
+        author: "tina"
 
 utterances:
     repo: "skielred/blog"
